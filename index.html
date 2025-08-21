@@ -11,14 +11,14 @@
         <h1>This is my header</h1>
     </header>
     <main>
-        <section>
+        <section class="songs">
             <h1>Welcome to my DOM</h1>
         <ul>
             <li>Liam</li>
             <li>Mustaq</li>
             <li>Jubu</li>
         </ul>
-        </section>
+        </section class="food">
         <section>
             <h1 id="foods">Foods I Love</h1>
             <ul>
@@ -26,6 +26,11 @@
                 <li class="liam">Pizza</li>
                 <li class="liam">HotDog</li>
             </ul>
+        </section>
+        <section id="old_dhaka">
+            <p>Lorem ipsum dolor sit <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, suscipit.</span></p>
+            <p>Lorem ipsum dolor sit <span>Lorem ipsum dolor sit amet.</span>amet consectetur adipisicing elit. Inventore praesentium fuga dignissimos optio magni odit soluta dolorum voluptatum incidunt necessitatibus?</p>
+
         </section>
     </main>
     <script>
@@ -53,6 +58,15 @@
         console.log(li2.innerText);
         li2.innerText ="I Love Pizza";
 
+
+        const spanlist = document.querySelectorAll("#old_dhaka p span");
+        for (const i of spanlist){
+            console.log(i.innerText);
+        }
+        const liam1 = document.querySelector("#old_dhaka span");
+        for (const i of liam1){
+            console.log(i.innerText);
+        }
     </script>
  
 
