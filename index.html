@@ -22,22 +22,26 @@
         <section>
             <h1 id="foods">Foods I Love</h1>
             <ul>
-                <li>Burger</li>
-                <li>Pizza</li>
-                <li>HotDog</li>
+                <li class="liam">Burger</li>
+                <li class="liam">Pizza</li>
+                <li class="liam">HotDog</li>
             </ul>
         </section>
     </main>
     <script>
         const li1 =document.getElementsByTagName('li');
         for(const li of li1){
-            console.log(li.innerText);
+            // console.log(li.innerText);
             
         }
 
         const food = document.getElementById("foods");
         console.log(food);
         food.innerText ="Foods are my life";
+
+        const li2 =document.getElementsByClassName("liam");
+        console.log(li2.innerTe);
+
     </script>
  
 
