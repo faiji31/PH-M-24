@@ -31,16 +31,27 @@
     <script>
         const li1 =document.getElementsByTagName('li');
         for(const li of li1){
-            // console.log(li.innerText);
+            console.log(li.innerText);
             
         }
-
+        const allheadings = document.getElementsByTagName("h1");
+        for (const heading of allheadings){
+            console.log(heading);
+        }
         const food = document.getElementById("foods");
-        console.log(food);
-        food.innerText ="Foods are my life";
+        console.log(food.innerText);
+        food.innerText='Food makes me healthy';
+
+        // const food = document.getElementById("foods");
+        // console.log(food);
+        // food.innerText ="Foods are my life";
+
+        // const li2 =document.getElementsByClassName("liam");
+        // console.log(li2.innerText);
 
         const li2 =document.getElementsByClassName("liam");
-        console.log(li2.innerTe);
+        console.log(li2.innerText);
+        li2.innerText ="I Love Pizza";
 
     </script>
  
