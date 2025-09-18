@@ -1,4 +1,10 @@
 h1{
     color: blue;
-    
+
+}
+#food-items{
+    color: red;
+}
+#food-name{
+    color: green;
 }

@@ -12,3 +12,7 @@ for (const head of allheadings){
 const foodtitle = document.getElementById('food-name')
 console.log(foodtitle.innerText)
 foodtitle.innerText = "Food i loved most"
+
+const nameserch = document.getElementsByClassName('name')
+console.log(nameserch)
+nameserch.innerText = "Tahmid"
